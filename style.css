@@ -2,8 +2,82 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-.copo-starbucks{
+body {
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+h1 {
+    color: #333;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+span {
+    font-size: 70px;
+    color: #017143;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #01633a;
+
+}
+
+.copo-starbucks {
     width: 340px;
+}
+
+.caixa-imagem{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.botao-menu:hover {
+    transform: translateY(-30px);
 }
